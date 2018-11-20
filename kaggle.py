@@ -73,7 +73,7 @@ def getCleanData(orgin_df):
     # do onehot
     df = df.merge(onehot(orgin_df, 'penalty'), left_index=True, right_index=True)
 
-    # n_jobs 处理
+    # n_jobs
     def fun(x):
         if (x == -1):
             return 100
@@ -85,7 +85,7 @@ def getCleanData(orgin_df):
 
 
 def doFeatureEngineeriing(df):
-    # 归一化
+    # normalization
     columns = df.columns.tolist();
     columns.remove('id')
     columns.remove('penalty')
