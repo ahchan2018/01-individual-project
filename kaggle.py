@@ -64,7 +64,7 @@ def trainMlp(x_data, y_data, x_test, y_test):
     sess = tf.Session()
     sess.run(init)
 
-    #train 400,000 process steps
+    #train 400,000 steps
     for step in range(0, 400000):
         sess.run(optimizer, feed_dict={x: train_data, y: train_label})
         if (step % 4000 == 0):
