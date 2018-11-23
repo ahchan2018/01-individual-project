@@ -1,3 +1,3 @@
 # 01-individual-project
  Programming languages & required packages: Python, numpy, pandas, tensorflow plus sklearn.
- This assigment has kaggle competition.py, which can be opened on Spyder or PyCharm, you should click on "Run" in the menu.
+ This assigment has kaggle competition.py, which can be opened on PyCharm(what I use), you should click on "Run" in the menu.
