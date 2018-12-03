@@ -1,4 +1,4 @@
-# 01-Individual Project
+# 01 Individual Project
 
 Programming languages: Python
 
